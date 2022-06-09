@@ -59,6 +59,8 @@ The build program is ran by G-Earth and attempts to retrieve the memory contents
 of a running Habbo process. The results, if obtained successfully, are printed to the console,
 which is then read by the G-Earth process.
 
+The `build/g_mem_mac` executable generated in the building step can be renamed to `G-Mem` and replace the existing `G-Mem` executable in the latest G-Earth release. 
+
 ### Logs
 Logs are written to the following directory:
 `/Users/YOURNAME/.g_mem/logs`
