@@ -40,6 +40,10 @@ Modern machines running MacOS have a security feature that shields of the memory
 Depending on your machine you may have to [disable SIP](https://developer.apple.com/documentation/security/disabling_and_enabling_system_integrity_protection).
 Especially for M1 macs it is required to disable SIP. 
 
+#### !!! IMPORTANT !!!
+Turning off SIP allows any program with sudo privileges to modify memory contents of other processes. 
+If you use pirated software, or other unverified apps, **DO NOT DO THIS** for your own safety! See the following stackoverflow post for some more info: https://apple.stackexchange.com/a/412281.
+
 ### Patch Entitlements
 In order to access the memory contents of the Habbo process,
 we need to enable some custom flags for the application.
